@@ -14,11 +14,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Orgarium - Agriculture Farming React Template</title>
+        <title>Desa Tegalsari - Kab. Wonosobo</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/logo/favicon.png"
           type="image/png"
         />
         {/*====== FontAwesome css ======*/}

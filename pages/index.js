@@ -37,7 +37,7 @@ const Index = () => {
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Dari Tangan Warga untuk Indonesia
                     </h1>
-                    <div
+                    {/* <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
@@ -50,7 +50,7 @@ const Index = () => {
                           Latest Project
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Index = () => {
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Jelajahi Pesona Alam di Lereng Dieng
                     </h1>
-                    <div
+                    {/* <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
@@ -91,7 +91,7 @@ const Index = () => {
                           Latest Project
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ const Index = () => {
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Jejak Alam yang Abadi dan Berarti
                     </h1>
-                    <div
+                    {/* <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
@@ -132,7 +132,7 @@ const Index = () => {
                           Latest Project
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@ const Index = () => {
                     <h1 data-animation="fadeInUp" data-delay=".5s">
                       Tegalsari: Harmoni Alam dan Tradisi
                     </h1>
-                    <div
+                    {/* <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
@@ -173,7 +173,7 @@ const Index = () => {
                           Latest Project
                         </a>
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

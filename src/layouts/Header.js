@@ -117,7 +117,7 @@ const Header1 = () => (
                   <img 
                   src="assets/images/logo/logo-4.png" alt="Site Logo"
                   alt="Site Logo" 
-                  width="60" 
+                  width="420" 
                   height="auto"  
                   />
                 </a>
@@ -142,17 +142,17 @@ const Header1 = () => (
                 <div className="info">
                   <h5 className="mb-1">Hubungi Kami</h5>
                   <p>
-                    <a href="mailto:surman716@gmail.com">
-                      surman716@gmail.com
+                    <a href="mailto:nanangpriyanto@gmail.com">
+                      nanangpriyanto@gmail.com
                     </a>
                   </p>
                 </div>
               </div>
-              <div className="button text-md-right text-sm-center">
+              {/* <div className="button text-md-right text-sm-center">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-yellow">Get a Quote</a>
+                  <a className="main-btn btn-yellow">Get a Q</a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@ const Header1 = () => (
                 <img 
                 src="assets/images/logo/logo-4.png" 
                 alt="Site Logo"
-                width="60"
+                width="240"
                 height="auto" 
                 />
               </a>
@@ -673,53 +673,60 @@ const DefaultHeader = () => (
 const Menu = () => (
   <nav className="main-menu d-none d-xl-block">
     <ul>
-      <li className="menu-item has-children">
+      <li className="menu-item">
         <a href="#" className="active">
           Beranda
         </a>
-        <ul className="sub-menu">
-          <li>
-            <Link legacyBehavior href="/">
-              Profil Desa
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/index-2">
-              Potensi Alam
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/index-3">
-              Pariwisata
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="/index-4">
-              UMKM
-            </Link>
-          </li>
-        </ul>
       </li>
       
       <li>
         <Link legacyBehavior href="/about">
-          Tentang Kami
+          Profil Desa
         </Link>
       </li>
 
+      <li className="menu-item has-children">
+        <a href="#">
+          Potensi Desa
+        </a>
+        <ul className="sub-menu">
+          <li>
+            <Link legacyBehavior href="/">
+              Pariwisata
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="/index-2">
+              Komoditas
+            </Link>
+          </li>
+          <li>
+            <Link legacyBehavior href="/index-3">
+              Produk
+            </Link>
+          </li>
+        </ul>
+      </li>
+
       <li className="menu-item">
-        <Link legacyBehavior href="/services">
-          <a>Profil Desa</a>
+        <Link legacyBehavior href="/portfolio-details">
+          <a>Berita & Informasi</a>
         </Link>
       </li>
 
       <li className="menu-item">
         <Link legacyBehavior href="/portfolio-details">
-          <a>Potensi Alam</a>
+          <a>Kontak</a>
         </Link>
       </li>
 
-      <li className="menu-item has-children">
+      <li className="menu-item">
+        <Link legacyBehavior href="/portfolio-details">
+          <a>Galeri</a>
+        </Link>
+      </li>
+
+      {/* <li className="menu-item has-children">
         <a href="#">Shop</a>
         <ul className="sub-menu">
           <li>
@@ -768,7 +775,7 @@ const Menu = () => (
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   </nav>
 );
