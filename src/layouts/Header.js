@@ -218,7 +218,7 @@ const Header2 = () => (
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-left d-flex align-items-center">
               <span className="text">
-                Welcome to Agriculture &amp; Organic Food Template
+                Selamat datang di website desa Tegalsari
               </span>
               <span className="lang-dropdown">
                 <select className="wide">
@@ -338,7 +338,7 @@ const Header3 = ({ overlayPanel, togglePanel }) => (
             <div className="site-branding">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-3.png" alt="Site Logo" />
+                  <img src="assets/images/logo/favicon.png" alt="Site Logo" />
                 </a>
               </Link>
               <Link legacyBehavior href="/">
@@ -468,7 +468,7 @@ const Header4 = ({ overlayPanel, togglePanel }) => (
             <div className="site-branding">
               <Link legacyBehavior href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-3.png" alt="Site Logo" />
+                  <img src="assets/images/logo/favicon.png" alt="Site Logo" />
                 </a>
               </Link>
               <Link legacyBehavior href="/index-4">
@@ -549,21 +549,15 @@ const DefaultHeader = () => (
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-left d-flex align-items-center">
               <span className="text">
-                Welcome to Agriculture &amp; Organic Food Template
-              </span>
-              <span className="lang-dropdown">
-                <select className="wide">
-                  <option value={1}>English</option>
-                  <option value={2}>French</option>
-                </select>
-              </span>
+                Selamat Datang di Website Desa Tegalsari
+              </span>  
             </div>
           </div>
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-right">
               <span className="text">
                 <i className="far fa-clock" />
-                Opening Hours : Sunday- Friday, 08:00 am - 05:00pm
+                Jam Operasional : Senin - Jumat, 08:00 - 04:00 WIB
               </span>
               <ul className="social-link">
                 <li>
@@ -601,12 +595,12 @@ const DefaultHeader = () => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo">
-                <img src="assets/images/logo/logo-3.png" alt="Site Logo" />
+                <img src="assets/images/logo/favicon.png" alt="Site Logo" />
               </a>
             </Link>
             <Link legacyBehavior href="/">
               <a className="sticky-logo">
-                <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
+                <img src="assets/images/logo/logo-5.png" alt="Site Logo" />
               </a>
             </Link>
           </div>
@@ -644,18 +638,8 @@ const DefaultHeader = () => (
               <div className="call-button">
                 <span>
                   <i className="far fa-phone" />
-                  <a href="tel:+012(345)678">+012 (345) 678</a>
+                  <a href="tel:+012(345)678">+62 821 3715 7135</a>
                 </span>
-              </div>
-              <div className="menu-button">
-                <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-yellow">Get a Quote</a>
-                </Link>
-              </div>
-              <div className="bar-item">
-                <a href="#">
-                  <img src="assets/images/bar.png" alt="" />
-                </a>
               </div>
               <div className="navbar-toggler">
                 <span />
@@ -715,7 +699,7 @@ const Menu = () => (
       </li>
 
       <li className="menu-item">
-        <Link legacyBehavior href="/portfolio-details">
+        <Link legacyBehavior href="/contact">
           <a>Kontak</a>
         </Link>
       </li>

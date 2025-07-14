@@ -7,8 +7,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
       style={{ backgroundImage: "url(assets/images/bg/page-bg-1.jpg)" }}
     >
       <div className="brand-card text-center">
-        <img src="assets/images/icon/wheat.png" alt="icon" />
-        <h3>Orgarium</h3>
+        <img src="assets/images/logo/logo-6.png" alt="icon" />
       </div>
       <div className="container">
         <div className="row">
@@ -18,7 +17,7 @@ const PageBanner = ({ pageName, pageTitle }) => {
               <ul className="breadcrumbs-link">
                 <li>
                   <Link legacyBehavior href="/">
-                    Home
+                    Beranda
                   </Link>
                 </li>
                 <li className="active">{pageName}</li>

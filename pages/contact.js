@@ -5,7 +5,7 @@ import { logoSlider } from "../src/sliderProps";
 const Contact = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Contact Us"} />
+      <PageBanner pageName={"Kontak"} />
       <section className="contact-information-one p-r z-1 pt-215 pb-130">
         <div className="information-img_one wow fadeInRight">
           <img src="assets/images/contact/img-1.jpg" alt="Imaged" />
@@ -15,9 +15,9 @@ const Contact = () => {
             <div className="col-xl-9 col-lg-12">
               <div className="contact-two_information-box">
                 <div className="section-title section-title-left mb-50 wow fadeInUp">
-                  <span className="sub-title">Get In Touch</span>
+                  <span className="sub-title">Mulai hubungi kami</span>
                   <h2>
-                    We’re Ready to Help You! Need Any Foods or Consultations ?
+                    Hubungi Kami Jika Membutuhkan Informasi & Bantuan Pelayanan Desa!
                   </h2>
                 </div>
                 <div className="row">
@@ -27,8 +27,8 @@ const Contact = () => {
                         <i className="far fa-map-marker-alt" />
                       </div>
                       <div className="info">
-                        <h5>Locations</h5>
-                        <p>505 Main Street, 2nd Block, New York</p>
+                        <h5>Lokasi</h5>
+                        <p>Tegalsari, Kec. Garung, Kab. Wonosobo</p>
                       </div>
                     </div>
                   </div>
@@ -41,11 +41,11 @@ const Contact = () => {
                         <h5>Email Address</h5>
                         <p>
                           <a href="mailto:hotlinein@gmail.com">
-                            hotlinein@gmail.com
+                            nanang@gmail.com
                           </a>
                         </p>
                         <p>
-                          <a href="mailto:www.info.net">www.info.net</a>
+                          <a href="mailto:www.info.net">www.tegalsari.id</a>
                         </p>
                       </div>
                     </div>
@@ -58,10 +58,10 @@ const Contact = () => {
                       <div className="info">
                         <h5>Phone Number</h5>
                         <p>
-                          <a href="tel:+01234567899">+012 (345) 678 99</a>
+                          <a href="tel:+01234567899">+62 821 3715 7135</a>
                         </p>
                         <p>
-                          <a href="tel:+0123456">+0123456</a>
+                          <a href="tel:+0123456">+62 89 9498 3040</a>
                         </p>
                       </div>
                     </div>
@@ -70,9 +70,7 @@ const Contact = () => {
                 <div className="row">
                   <div className="col-lg-8">
                     <p>
-                      Natus error sit voluptatem accusantium doloremque
-                      laudatium, totam rem aperiam eaque ipsa quae abllo
-                      inventore veritatis et quase
+                      Desa Tegalsari melayani kebutuhan informasi, aspirasi, dan pelayanan masyarakat dengan cepat. Jangan ragu untuk menghubungi kami.
                     </p>
                   </div>
                 </div>
@@ -85,7 +83,8 @@ const Contact = () => {
       {/*====== Start Map section ======*/}
       <section className="contact-page-map">
         <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+          {/* <iframe src="https://maps.google.com/maps?q=PiiFeqS9SaPYAGRa7=&output=embed" /> */}
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31661.028400154708!2d109.87935286477325!3d-7.283035584343259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e700baae8ef9787%3A0x53c0bc737dbb560e!2sTegalsari%2C%20Kec.%20Garung%2C%20Kabupaten%20Wonosobo%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1752304829514!5m2!1sid!2sid" />
         </div>
       </section>
       {/*====== End Map section ======*/}
@@ -96,8 +95,8 @@ const Contact = () => {
             <div className="col-xl-7 col-lg-10">
               <div className="contact-three_content-box">
                 <div className="section-title section-title-left mb-60">
-                  <span className="sub-title">Get In Touch</span>
-                  <h2>Need Oragnic Foods! Send Us Message</h2>
+                  <span className="sub-title">Hubungi Kami Sekarang</span>
+                  <h2>Butuh Bantuan atau Informasi Pelayanan Desa? Tulis Pesan Anda!</h2>
                 </div>
                 <div className="contact-form">
                   <form onSubmit={(e) => e.preventDefault()}>
@@ -105,7 +104,7 @@ const Contact = () => {
                       <input
                         type="text"
                         className="form_control"
-                        placeholder="Full Name"
+                        placeholder="Nama Lengkap"
                         name="name"
                         required=""
                       />
@@ -114,7 +113,7 @@ const Contact = () => {
                       <input
                         type="email"
                         className="form_control"
-                        placeholder="Email Address"
+                        placeholder="Alamat Email"
                         name="email"
                         required=""
                       />
@@ -122,14 +121,14 @@ const Contact = () => {
                     <div className="form_group">
                       <textarea
                         className="form_control"
-                        placeholder="Write Message"
+                        placeholder="Tulis Pesan"
                         name="message"
                         defaultValue={""}
                       />
                     </div>
                     <div className="form_group">
                       <button className="main-btn btn-yellow">
-                        Send Us Message
+                        Kirim Pesan
                       </button>
                     </div>
                   </form>
@@ -141,7 +140,7 @@ const Contact = () => {
       </section>
       {/*====== End Contact Section ======*/}
       {/*====== Start Partner Section ======*/}
-      <section className="partners-one p-r z-1 pt-50 pb-130">
+      {/* <section className="partners-one p-r z-1 pt-50 pb-130">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
@@ -209,7 +208,7 @@ const Contact = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };
